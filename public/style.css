@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+input {
+  margin: 10px 5px;
+  padding: 5px;
+}
+
+#resultados {
+  margin-top: 20px;
+}
