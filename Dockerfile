@@ -13,5 +13,8 @@ RUN npm install --production
 # Copy the rest of the application code
 COPY . .
 
+# Expose port (default for many Node.js apps)
+EXPOSE 80
+
 # Start the server
 CMD ["node", "server.js"]
